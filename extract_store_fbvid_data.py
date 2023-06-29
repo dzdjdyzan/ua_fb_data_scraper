@@ -151,7 +151,7 @@ def deserialize_object(file_path):
 
 #connect to mongo client
 try:
-    client = pymongo.MongoClient("mongodb+srv://damjanmarkovic:pUEpLf82DRzdTIZs@uacluster.qr8jmh2.mongodb.net/?retryWrites=true&w=majority")
+    client = pymongo.MongoClient("MONGODATA")
     # Perform operations on the database
     # ...
     logger.info("Connected to MongoDB successfully!")
